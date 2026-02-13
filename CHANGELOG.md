@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/BigDeal-io/BigOcto/compare/v1.0.0...v1.0.1) (2026-02-13)
+
+
+### Bug Fixes
+
+* polyfill browser globals for react-devtools-core ([e2d2739](https://github.com/BigDeal-io/BigOcto/commit/e2d2739e0cb58ff51478a2ec731d960d419be1fa))
+* polyfill browser globals for react-devtools-core in Node.js ([11dd75a](https://github.com/BigDeal-io/BigOcto/commit/11dd75afc9635846cb399457dbece9817aac335f))
+
 ## 1.0.0 (2026-02-13)
 
 
