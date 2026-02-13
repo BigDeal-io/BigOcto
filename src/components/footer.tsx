@@ -43,8 +43,18 @@ function getHints(screen: Screen): string[] {
       return [KEY_LABELS.navigate, KEY_LABELS.select, KEY_LABELS.back];
     case 'issue-create':
       return [KEY_LABELS.confirm, KEY_LABELS.cancel];
+    case 'loop-config':
+      return [KEY_LABELS.navigate, KEY_LABELS.select, KEY_LABELS.cancel];
     case 'loop-running':
+      return ['s Stop', KEY_LABELS.back];
+    case 'claude-agent-launch':
+      return [KEY_LABELS.navigate, KEY_LABELS.select, KEY_LABELS.back];
+    case 'knowledge-view':
       return [KEY_LABELS.back];
+    case 'repo-management':
+      return [KEY_LABELS.navigate, KEY_LABELS.select, KEY_LABELS.back];
+    case 'settings':
+      return [KEY_LABELS.navigate, KEY_LABELS.select, KEY_LABELS.back];
     default:
       return [KEY_LABELS.navigate, KEY_LABELS.select, KEY_LABELS.back, KEY_LABELS.help];
   }

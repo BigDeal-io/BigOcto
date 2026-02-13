@@ -3,7 +3,7 @@
 **Product Name:** BIGOCTO  
 **Product Line:** BIGDEALIO Suite  
 **Version:** 1.0  
-**Owner:** Mobilozophy, BIGDEALIO LLC  
+**Owner:** BIGDEALIO LLC  
 **Status:** Planning  
 **Last Updated:** February 2026
 
@@ -1472,7 +1472,7 @@ Launch BIGOCTO? (Y/n): Y
 **Document Version:** 1.0  
 **Aligned with:** BIGMUX v1.0 architecture, Claude Agent SDK latest  
 **Next Review:** Post-alpha implementation  
-**Contact:** mobilozophy@bigdealio.com
+**Contact:** info@bigdeal.io
 
 ---
 

@@ -18,7 +18,11 @@ await build({
   banner: {
     js: '#!/usr/bin/env node\nimport { createRequire } from "module"; const require = createRequire(import.meta.url);',
   },
-  external: nodeExternals,
+  external: [
+    ...nodeExternals,
+    'react-devtools-core',
+    '@anthropic-ai/claude-agent-sdk',
+  ],
   define: {
     'process.env.NODE_ENV': '"production"',
   },
